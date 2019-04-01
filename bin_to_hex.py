@@ -14,7 +14,7 @@ def bin_to_hex(string_bin):
     """
     length = len(string_bin)
     if (length % 4) != 0:
-        return ValueError
+        return ValueError, 'the length of your string % 4 is not zero'
     times = int(length/4)
     begin = 0
     end = 1
