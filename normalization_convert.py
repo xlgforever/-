@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-from jzzh import jzzh
 
 
 def intToBin(spaces, i):
