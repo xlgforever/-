@@ -18,5 +18,3 @@ def convert_bytes(s):
         
     return ''.join(str1)
 
-if __name__ == '__main__':
-   a = convert_bytes(read_data)
